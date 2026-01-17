@@ -10,8 +10,9 @@ def merge(func,n1,n2):
   fn1=func(n1)
  
   fn2=func(n2)
-  j=fn1+fn2
-  return print(j)
+  add=(fn1+fn2)
+  add.sort()
+  return print(add)
 
 n1=int(input("Enter the number of Integer do you want in list1: "))
 n2=int(input("Enter the number of Integer do you want in list2: "))
